@@ -1,0 +1,92 @@
+ 
+
+**Carol Haney** Chair  
+Qualtrics  
+
+**David Banks** Discussant  
+Duke University  
+
+**Jerry Timbrook** Organizer  
+
+Wednesday, Aug 7: 10:30 AM - 12:20 PM  
+1263 Invited Paper Session 
+
+Oregon Convention Center 
+
+Room: CC-G131 
+
+This session will feature recent work of three scholars in the field of Large Language Models (LLMs). First, Weijie Su from the University of Pennsylvania will present "Reward Collapse in Aligning Large Language Models," describing potential causes of and solutions to reward collapse - an empirical observation where the prevailing ranking-based approach results in an identical reward distribution regardless of the prompts during the terminal phase of training. Next, Claudia Shi from Columbia University will present "Evaluating the (Moral) Beliefs Encoded in LLMs", a talk focusing on large-scale automatic evaluations of LLMs, covering design principles, evaluation protocols, and a case study analyzing the moral beliefs of 28 LLMs. Third, Natesh Pillai from Harvard University will present "Challenges in Operationalizing Responsible AI," a discussion of how responsible AI poses many ethical challenges, and how statistical methods can help assess, measure, and mitigate those risks. This invited session will conclude with Discussant David Banks from Duke University.
+
+  
+
+#### Applied
+
+No
+
+#### Main Sponsor
+
+Section on Text Analysis
+
+## Presentations
+
+### [Challenges in Operationalizing Responsible AI](https://ww3.aievolution.com/JSMAnnual2024/Events/viewEv?ev=1410 "Challenges in Operationalizing Responsible AI")
+
+Responsible AI poses many ethical challenges, and statistical methods can help assess, measure, and mitigate those risks. 
+
+  
+
+#### Speaker
+
+_Natesh Pillai_, Harvard University  
+
+---
+
+### [Evaluating the (Moral) Beliefs Encoded in LLMs](https://ww3.aievolution.com/JSMAnnual2024/Events/viewEv?ev=1409 "Evaluating the (Moral) Beliefs Encoded in LLMs")
+
+This talk concerns the design, administration, post-processing, and evaluation of surveys on LLMs. It has two parts: 1. A statistical method for eliciting beliefs encoded in LLMs. We introduce statistical measures and evaluation metrics that quantify the probability of an LLM "making a choice", the associated uncertainty, and the consistency of that choice. 2. We apply this method to study moral beliefs encoded in LLMs, especially in ambiguous cases where the right choice is not obvious. We design a survey with high-ambiguity moral scenarios (e.g., "Should I tell a white lie?") and low-ambiguity scenarios (e.g., "Should I kill an innocent person?"). Each scenario includes a description, two possible actions, and labels indicating violated rules (e.g., "do not kill"). We survey 28 open and closed-source LLMs. We find that (a) Most LLMs choose actions that align with human annotators in unambiguous scenarios but reflect uncertainty in ambiguous situations. (b) Some LLMs reflect high uncertainty because their responses are sensitive to the question wording. (c) Some models reflect clear preferences in ambiguous scenarios. Specifically, closed-source models agree with each other. 
+
+  
+
+#### Speaker
+
+_Claudia Shi_, Columbia University  
+
+## 
+
+Treat LLMs as survey respondents, what action would different LLMs choosegiven different hypothetical moral scenarios 
+
+MoralChoice, survery used
+
+statistical challenges, how doyou measure the toke nsueqnces in as action likelihood
+given a datset of survery questions, sample n responses from LLMs, then aggregate the probability 
+
+challenge 2 LLMs are biased
+very sensativeto question ordering, prompt format
+
+marginal action likelihood measure the choices mae by the model when a question is presnted witha rnadomly sampled question form
+
+
+questions:
+longer form questions, these are all very short questions, what about questions with larger contexts?
+
+non instruct changed?
+
+additional pre prompts, various degrees of in context learning
+
+i took some pictures
+
+
+---
+
+### [Navigating the Societal Landscape of Generative AI: A Statistical Perspective on Opportunities and Challenges](https://ww3.aievolution.com/JSMAnnual2024/Events/viewEv?ev=1408 "Navigating the Societal Landscape of Generative AI: A Statistical Perspective on Opportunities and Challenges")
+
+Generative AI, particularly large language models, has rapidly emerged as a transformative innovation in data science and machine learning. As these technologies increasingly influence human decision-making processes, they raise important societal questions that demand careful consideration. In this talk, we explore three key concerns from a statistical viewpoint. First, we discuss the challenge of creating fair AI systems that adequately represent and serve minority groups, ensuring equitable outcomes across diverse populations. Second, we delve into the complex task of reliably combating misinformation by developing robust watermarking techniques for text generated by large language models, aiming to maintain the integrity of information in the public sphere. Third, we examine the intricate issue of using potentially copyrighted data to train AI models, navigating the balance between leveraging valuable resources and respecting intellectual property rights. Throughout this talk, we will not only tackle these pressing challenges posed by generative AI but also highlight the substantial opportunities they present for the field of statistics to make meaningful contributions to the responsible development of generative AI. 
+
+  
+
+#### Speaker
+
+_Weijie Su_, University of Pennsylvania  
+https://arxiv.org/abs/2404.01245
+
+---
